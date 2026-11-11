@@ -1,0 +1,14 @@
+# Virtual environment and pip cache
+.venv/
+venv/
+.pip_cache/
+__pycache__/
+*.py[cod]
+
+# Secret environment variables (NEVER COMMIT THIS)
+.env
+
+# OS / IDE files
+.vscode/
+.DS_Store
+Thumbs.db
