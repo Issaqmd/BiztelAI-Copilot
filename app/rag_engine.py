@@ -217,7 +217,7 @@ class RAGEngine:
             f"Provide a clear, professional, cited answer based strictly on the reference documents above."
         )
 
-        models_to_try = [GEMINI_MODEL, "gemini-3.5-flash", "gemini-3.7-flash"]
+        models_to_try = ["gemini-3.5-flash", "gemini-3.5-flash-lite"]
         answer_text = ""
         last_error = None
 

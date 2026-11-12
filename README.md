@@ -82,7 +82,7 @@ Copy-Item .env.example .env
 Open ".env" and add your Gemini API key:
 
 GEMINI_API_KEY=your_actual_gemini_api_key_here
-GEMINI_MODEL=gemini-3.8-flash
+GEMINI_MODEL=gemini-3.5-flash
 EMBEDDING_MODEL=gemini-embedding-001
 HOST=0.0.0.0
 PORT=8000
